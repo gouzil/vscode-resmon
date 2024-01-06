@@ -8,3 +8,6 @@ private/**
 tsconfig.json
 vsc-extension-quickstart.md
 tslint.json
+.DS_Store
+npm-debug.**
+node_modules/**
