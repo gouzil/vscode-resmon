@@ -1,0 +1,14 @@
+{
+  "extends": ["config:base", "schedule:weekly"],
+  "labels": ["dependencies"],
+  "pin": false,
+  "commitMessagePrefix": "⬆️ deps: ",
+  "dependencyDashboardTitle": "☑️ Dependency Dashboard",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "automergeStrategy": "squash"
+    }
+  ]
+}
