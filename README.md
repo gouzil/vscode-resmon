@@ -34,6 +34,14 @@ A better solution for Windows CPU Usage would be great. I investigated alternati
 
 ---
 
+## source Installation
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/)
+2. install [node.js](https://nodejs.org/)
+3. install npm package, run `npm install`
+4. build the extension, run `npm run build:vsix`
+5. vscode install the vsix file, run `code --install-extension resourcemonitor-1.0.8.vsix `
+
 ## Change Log
 
 ### [1.0.7]
